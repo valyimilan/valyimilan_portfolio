@@ -1,0 +1,146 @@
+html{
+  background-color: #F4EDE4;
+  font-family: 'IBM Plex Serif', serif;
+}
+.fejlec{
+
+	font-size: 64px;
+	text-align: center;
+	position: relative;
+}
+
+.fejlec img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40rem;
+}
+
+.gomb{
+  color: black;
+  font-size: 20px;
+  font-style: bold;
+  display:  inline-block;
+    background-color: #F4EDE4;
+    border-radius: 12px;
+    padding: 12px 24px;
+    margin: 6px 32px;
+    border: 4px solid black;
+    justify-content: space-between;
+    text-align: center;
+  }
+a{
+  text-decoration: none;
+}
+.gombok a:visited{
+  color: black;
+}
+.gomb:hover{
+  cursor: pointer;
+  background-color: #e1ceb6;
+  transition: 0.5s;
+}
+.szoveg p a{
+  font-size: 28px;
+}
+.gombok{
+  margin-right: 20%;
+  margin-left: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.tablo img{
+  width: 330px;
+  padding-left: 15%;
+  padding-bottom: 20px;
+  padding-right: 2%;
+  float: left;
+  display: inline-block;
+}
+.torzs{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 80vw;
+
+}
+.sulik img{
+  width: 400px;
+
+  
+}
+.sulik{
+  padding-left: 5%;
+  padding-right: 5%;
+  float: left;
+}
+
+.szoveg p{
+  font-size: 20px;
+  margin-right: 150px;
+  margin-left: 50px;
+  text-align: justify;
+}
+
+.szoveg2{
+  font-size: 21px;
+  margin-right: 5%;
+  text-align: justify;
+}
+
+.hobbik img{
+  width: 400px;
+  padding-left: 150px;
+  padding-right: 30px;
+  float: left;
+}
+
+
+.kapcsolat a: visited{
+  color: black;
+}
+
+.weblap img{
+  width: 500px;
+  padding-left: 150px;
+  padding-right: 30px;
+}
+
+
+
+@media only screen and (max-width: 1070px) {
+
+.torzs{display: block;
+text-align: center;
+width: 80vw;}
+.szoveg2{margin-left: 10%;}
+img{width: 80%;
+display: flex;}
+.sulik{
+  text-align: center;
+}
+}
+
+@media only screen and (max-width: 844px) {
+  .sulik{
+    text-align: center;
+    float: none;
+  }
+  .gombok{margin-left: 40%;
+    margin-right: 40%;}
+
+}
+
+@media only screen and (max-width: 630px){
+  .fejlec img{
+    width: 20rem;
+    height: 2rem;
+  }
+  .sulik img{
+    width: 90%;
+  }
+
+}
